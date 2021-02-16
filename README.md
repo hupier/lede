@@ -1,4 +1,4 @@
-欢迎来到Lean的Openwrt源码仓库！
+欢迎来到hupier的Openwrt源码仓库！
 =
 Welcome to Lean's  git source of OpenWrt and packages
 =
@@ -9,7 +9,7 @@ Welcome to Lean's  git source of OpenWrt and packages
 1. **不**要用 **root** 用户进行编译！！！
 2. 国内用户编译前最好准备好梯子
 3. 默认登陆IP 192.168.1.1, 密码 password
-4. 免责声明：本人不欢迎例如 nobk 这种傻逼使用或者访问本源代码哪怕一个字节，否则一旦他家里因此而发生各种全家富贵的情况，与本人一律无关
+4. 免责声明：本源码搬运自lean大！原地址https://github.com/coolsnowwolf/lede
 
 
 编译命令如下:
@@ -21,7 +21,7 @@ Welcome to Lean's  git source of OpenWrt and packages
 sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3 python2.7 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf wget curl swig rsync
 `
 
-3. 使用 `git clone https://github.com/coolsnowwolf/lede` 命令下载好源代码，然后 `cd lede` 进入目录
+3. 使用 `git clone https://github.com/hupier/lede` 命令下载好源代码，然后 `cd lede` 进入目录
 
 4. ```bash
    ./scripts/feeds update -a
@@ -60,31 +60,7 @@ make -j$(($(nproc) + 1)) V=s
 
 特别提示：
 ------
-1.源代码中绝不含任何后门和可以监控或者劫持你的 HTTPS 的闭源软件，SSL 安全是互联网最后的壁垒。安全干净才是固件应该做到的；
-
-2.如有技术问题需要讨论，欢迎加入 QQ 讨论群：OP共享技术交流群 ,号码 297253733 ，加群链接: 点击链接加入群聊【OP共享技术交流群】：[点击加入](https://jq.qq.com/?_wv=1027&k=5yCRuXL "OP共享技术交流群")
-
-3.想学习OpenWrt开发，但是摸不着门道？自学没毅力？基础太差？怕太难学不会？跟着佐大学OpenWrt开发入门培训班助你能学有所成
-报名地址：[点击报名](http://forgotfun.org/2018/04/openwrt-training-2018.html "报名")
-
-## 软路由介绍
-友情推荐不恰饭：如果你在寻找一个低功耗小体积性能不错的 x86/x64 路由器，我个人建议可以考虑 
-小马v1 的铝合金版本 (N3710 4千兆)：[页面介绍](https://item.taobao.com/item.htm?spm=a230r.1.14.20.144c763fRkK0VZ&id=561126544764 " 小马v1 的铝合金版本")
-
-![xm1](doc/xm5.jpg)
-![xm2](doc/xm6.jpg)
-
-## Donate
-
-如果你觉得此项目对你有帮助，可以捐助我们，以鼓励项目能持续发展，更加完善
-
-### Alipay 支付宝
-
-![alipay](doc/alipay_donate.jpg)
-
-### Wechat 微信
-
-![wechat](doc/wechat_donate.jpg)
+源代码中绝不含任何后门和可以监控或者劫持你的 HTTPS 的闭源软件，SSL 安全是互联网最后的壁垒。安全干净才是固件应该做到的；
 
 ------
 
@@ -108,7 +84,7 @@ sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git
 `
 in terminal
 
-Third, logout of root users. And type this `git clone https://github.com/coolsnowwolf/lede` in terminal to clone this source.
+Third, logout of root users. And type this `git clone https://github.com/hupier/lede` in terminal to clone this source.
 
 After these please type `cd lede` to cd into the source.
 
